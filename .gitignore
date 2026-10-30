@@ -1,0 +1,9 @@
+# Fotos originales sin procesar (no se usan en la página)
+detalles_para_vos_fotos_jun2026_y_2025/
+
+# Configuración local
+.claude/
+CLAUDE.local.md
+.DS_Store
+Thumbs.db
+desktop.ini
