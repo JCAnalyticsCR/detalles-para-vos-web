@@ -65,12 +65,6 @@ img{max-width:100%;display:block}
 .card__fotos{display:flex;gap:8px}
 .card__fotos img{width:72px;height:72px;object-fit:cover;border-radius:12px}
 
-/* Paleta */
-.paleta{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:center;margin-top:56px}
-.paleta__swatches{display:flex;gap:12px;flex-wrap:wrap}
-.paleta__swatches span{width:88px;height:88px;border-radius:50%;border:3px solid var(--ciruela)}
-.paleta__nombres{font-size:13px;color:var(--texto-suave);line-height:1.8;text-align:right}
-
 /* Pie */
 .pie{padding:28px var(--gutter);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 24px;font-size:14px;font-weight:500}
 .pie img{height:44px;width:auto}
@@ -81,8 +75,6 @@ img{max-width:100%;display:block}
   .nav__links{display:none}
   .cards{grid-template-columns:1fr 1fr}
   .tecnicas{font-size:18px;justify-content:center}
-  .paleta{grid-template-columns:1fr;gap:20px}
-  .paleta__nombres{text-align:left}
 }
 
 /* Celular: las polaroids pasan a una grilla de 2 columnas */
@@ -102,7 +94,6 @@ img{max-width:100%;display:block}
   .card{padding:24px}
   .card h2{font-size:24px}
   .card__fotos img{width:calc((100% - 16px)/3);height:auto;aspect-ratio:1}
-  .paleta__swatches span{width:52px;height:52px}
   .pie{flex-direction:column;text-align:center}
 }
 </style>
@@ -149,13 +140,6 @@ img{max-width:100%;display:block}
         <p>Uniformes en todas las tallas, stickers para cuadernos, kit escolar con botella y camisetas para colorear en el Día del Niño.</p>
         <div class="card__fotos"><img src="img/uniformes.jpg" alt="Uniformes escolares" loading="lazy"><img src="img/regreso-clases.jpg" alt="Regreso a clases" loading="lazy"><img src="img/kit-escolar.jpg" alt="Kit escolar" loading="lazy"></div>
       </article>
-    </div>
-
-    <div class="paleta">
-      <div class="paleta__swatches" aria-hidden="true">
-        <span style="background:#E0197F"></span><span style="background:#7B2CBF"></span><span style="background:#FFD6EA"></span><span style="background:#2B0F3A"></span><span style="background:#FFF4F9"></span>
-      </div>
-      <div class="paleta__nombres">Magenta #E0197F · Violeta #7B2CBF · Rosa #FFD6EA<br>Ciruela #2B0F3A · Crema #FFF4F9</div>
     </div>
   </section>
 

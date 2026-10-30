@@ -9,9 +9,6 @@ Prototipo de la página de **Detalles para vos** (personalización en Costa Rica
 - `img/` — fotos de producto y logo (`logo-white.png` / `logo.png`).
 - Fuentes: Righteous + Poppins (Google Fonts).
 
-## Paleta
-Magenta `#E0197F` · Violeta `#7B2CBF` · Rosa `#FFD6EA` · Ciruela `#2B0F3A` · Crema `#FFF4F9`
-
 ## Pendientes
 - Fotos de producto limpias (sin texto/precios incrustados) y logo original en PNG/SVG.
 - Número de WhatsApp para los enlaces `wa.me` y el botón "Cotizar ya".
